@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ccc;
+  font-family: 'arial';
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+.container{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.btn{
+  display: inline-block;
+  padding: 15px 30px;
+  background: #daa520;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

@@ -1,0 +1,36 @@
+.grid-header {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+}
+
+.navegacao {
+  display: flex;
+  flex-wrap: wrap;
+  place-items: center;
+  justify-content: space-between;
+  background: #bd8d16;
+  grid-column: 2/5;
+  margin: 10px 0;
+  border-radius: 8px 0 0 8px;
+}
+
+.navegacao .logo {
+  width: 6rem;
+}
+
+.navegacao ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-self: end;
+  padding-right: 25px;
+}
+.navegacao ul a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.navegacao ul a:hover {
+  color: #daa520;
+  text-decoration: underline;
+}
