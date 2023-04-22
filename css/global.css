@@ -7,6 +7,7 @@
 body {
   background: #ccc;
   font-family: 'arial';
+  height: 10000px;
 }
 
 ul {
@@ -33,8 +34,34 @@ img {
   display: inline-block;
   padding: 15px 30px;
   background: #daa520;
+  color: #534112;
   text-align: center;
   border-radius: 8px;
   font-weight: bold;
   text-transform: uppercase;
+}
+.btn:hover{
+  background: #ac7e0c;
+  color: #382b0b;
+}
+
+.titulo{
+  font-size: 2.1rem;
+  font-weight: 300;
+  margin: 25px 0 0 50px;
+  display: flex;
+  place-items: center;
+  position: relative;
+}
+.titulo::after{
+  content: " ";
+  position: absolute;
+  left: -25px;
+  display: block;
+  width: 20px;
+  height: 10px;
+  background: #534112;
+}
+.titulo:hover::after,.titulo:hover{
+  padding-left: 20px;
 }
