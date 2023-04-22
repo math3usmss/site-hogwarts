@@ -7,17 +7,29 @@
 }
 
 .brasao{
-  border: 2px solid #000;
   border-radius: 8px;
   cursor: pointer;
   width: 200px;
+  height: 100%;
   text-align: center;
 }
 
-.casas-container p, .casas-container span,.casas-container h3{
+.sem-display{
   display: none;
 }
 
+.casas-grifinoria{
+  background: #ae0001;
+}
+.casas-sonserina{
+  background: #2a623d;
+}
+.casas-lufa{
+  background: #E9AC2D ;
+}
+.casas-corvinal{
+  background: #222f5b;
+}
 
 .ampliar{
   font-size: 1.5rem;
